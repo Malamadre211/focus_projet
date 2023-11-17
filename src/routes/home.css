@@ -1,0 +1,105 @@
+@media screen and (max-width: 768px) {
+
+    body {
+        background-color: #EFEFF0;
+    }
+
+    header {
+        display: flex;
+    }
+
+    .navbar {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 3px;
+        background-color: #19191B;
+        margin: 7px 0;
+        box-shadow: 0px 1px 4px #19191B;
+    }
+
+    .logo {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .avatar {
+        width: 30px;
+        height: 30px;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        color: #19191B;
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: start;
+        color: #19191B;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+        text-align: start;
+        margin: 25px;
+        color: #19191B;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #19191B;
+        text-align: center;
+    }
+
+    .slide_histoire {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px;
+        font-size: 18px;
+    }
+
+    .histoire {
+        border: 3px solid #70509D;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px #19191B;
+        width: 130px;
+        height: 100px;
+    }
+
+    .slide_ebook {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px;
+        font-size: 18px;
+    }
+
+    .ebook {
+        border: 3px solid #E38833;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px #19191B;
+        width: 130px;
+        height: 100px;
+    }
+
+
+}
