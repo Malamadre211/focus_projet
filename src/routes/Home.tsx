@@ -78,7 +78,7 @@ export function Home () {
                         <p>Durée</p>
                     </div>
                 </div>
-                    <h2>Mes e-books importés</h2>
+                    <h2 className='second'>Mes e-books importés</h2>
                 <div className="slide_ebook">
                     <div className="ebook">
                         <p>Titre</p>
