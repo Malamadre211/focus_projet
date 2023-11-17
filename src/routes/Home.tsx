@@ -15,7 +15,7 @@ export function Home () {
                         <img src="/images/profile.png" alt="" width="30px" height="30px" />
                     </div>
                 </div>
-                <div className="container">
+                <div className="container_histoire">
                 <h1>Ma bibliothèque</h1>
                 <h2>Mes histoires générées</h2>
                 <h3>3-5 ans</h3>
@@ -78,6 +78,8 @@ export function Home () {
                         <p>Durée</p>
                     </div>
                 </div>
+                </div>
+                <div className="container_ebook">
                     <h2 className='second'>Mes e-books importés</h2>
                 <div className="slide_ebook">
                     <div className="ebook">

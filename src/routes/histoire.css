@@ -43,6 +43,7 @@
         font-size: 36px;
         text-align: center;
         color: #19191B;
+        margin-top: 0px;
     }
 
     h2 {
@@ -66,44 +67,75 @@
         text-align: center;
     }
 
-    .container_histoire {
-        margin-bottom: 60px;
-    }
-
-    .slide_histoire {
-        height: 50px;
+    .container_player {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-        margin: 25px;
-        font-size: 18px;
+        margin: 20px;
+        padding: 10px;
     }
 
-    .histoire {
+    .player {
+        height: 40px;
+        width: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         border: 3px solid #70509D;
-        border-radius: 20px;
-        box-shadow: 0px 4px 4px #19191B;
-        width: 130px;
-        height: 100px;
+        border-radius: 30px;
+        font-size: 50px;
+        color: #70509D;
+        background-color: #D2B3FC;
+        box-shadow: 0px 1px 4px #19191B;
     }
 
-    .slide_ebook {
-        height: 50px;
+    .play {
+        display: flex;
+        text-align: center;
+
+    }
+
+    .pause {
+        display: flex;
+        text-align: center;
+    }
+
+    .text_histoire {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .text_img {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 25px;
-        font-size: 18px;
     }
 
-    .ebook {
-        border: 3px solid #E38833;
-        border-radius: 20px;
-        box-shadow: 0px 4px 4px #19191B;
-        width: 130px;
-        height: 100px;
+    .img_animation {
+        margin: 20px;
+        border: 2px solid black;
+        height: 150px;
+        text-align: center;
+    }
+
+    .bar_exp {
+        height: 50px;
+        border: 3px solid #70509D;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .progression {
+        background-color: #D2B3FC;
+        border-radius: 25px;
+        width: 50%;
+    }
+
+    .text_bar {
+        margin-right: 10px;
     }
 
 }
